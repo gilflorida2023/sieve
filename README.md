@@ -73,7 +73,7 @@ For each window:
   - Uses constant ~100KB memory regardless of input size
 
 ## Implementation Notes
-- Uses unsigned long long integers for number representation
+- Uses u64 integers for number representation
 - Implements efficient file I/O with buffering
 - Includes optional processing delays for monitoring long runs
 - Error handling for file operations and memory allocation
