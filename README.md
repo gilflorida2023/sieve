@@ -70,7 +70,7 @@ For each window:
 - Time Complexity: O(n log log n) where n is upper_limit
 - For default parameters (upper_limit = 1,000,000):
   - Finds 78,498 prime numbers
-  - Uses constant ~100KB memory regardless of input size
+  - Uses constant memory bassed on window size
 
 ## Implementation Notes
 - Uses u64 integers for number representation
