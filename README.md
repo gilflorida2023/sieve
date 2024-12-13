@@ -1,4 +1,5 @@
-# window_sieve
+[![Rust](https://github.com/gilflorida2023/sieve/actions/workflows/rust.yml/badge.svg)](https://github.com/gilflorida2023/sieve/actions/workflows/rust.yml)
+# sieve
 
 ## Overview
 Sieve is a memory-efficient implementation of the Sieve of Eratosthenes algorithm for finding prime numbers. Unlike traditional implementations that require memory proportional to the upper limit, this program uses a sliding window approach to find primes up to large numbers while maintaining a constant memory footprint.
